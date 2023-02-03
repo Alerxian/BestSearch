@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "React: debug brower",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3001"
+    }
+  ]
+}
