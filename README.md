@@ -20,3 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 2. 项目添加了 eslint + Typescript，配合 prettier 实现了代码风格统一,不符合 eslint 要求的代码会在运行时和打包时报错，并对 vscode 编辑器做了设置，自动保存代码并格式化；
 3. 添加 husky 钩子，配合 commitlint 实现了提交信息的一致性，可在 commitlint.config.js 中查看配置；
 4. 代码提交到远程仓库前，会自动运行`yarn build`打包成功后才能提交到远程仓库，确保部署的代码正确打包；
+
+`项目采用ReactV18 + React-RouterV6.8 + React-ReduxV8`
+
+## NextJs 版 `https://github.com/Alerxian/best-search-next`
