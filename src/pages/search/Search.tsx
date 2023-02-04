@@ -34,9 +34,9 @@ const SearchPage: FC = () => {
     const value = searchVal ? searchVal.replace(/\+/g, ' ') : '';
     if (value) {
       dispatch(onSearchChange(value));
-      // dispatch(fetchLists({ search_phrase: value }));
+      dispatch(fetchLists({ search_phrase: value }));
     }
-  }, [searchVal]);
+  }, [searchVal, dispatch]);
 
   let content;
   if (status === 'loading' || status === 'idle') {
